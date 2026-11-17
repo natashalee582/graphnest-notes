@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f7f3" />
+  <meta name="description" content="GraphNest 是一個以資料驅動的圖論筆記網站。透過概念解說、圖示與小測驗，建立自己的知識庫。" />
+  <title>GraphNest — 圖論概念筆記</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#/" aria-label="GraphNest 首頁">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M9 25 18 9 28 25H9Z" stroke="currentColor" stroke-width="1.8"/><circle cx="18" cy="9" r="3" fill="currentColor"/><circle cx="9" cy="25" r="3" fill="currentColor"/><circle cx="28" cy="25" r="3" fill="currentColor"/></svg></span>
+        <span>Graph<span class="brand-light">Nest</span></span>
+      </a>
+      <nav class="header-nav" aria-label="主選單">
+        <a href="#/" id="nav-home">探索筆記</a>
+        <a href="#/about" id="nav-about">關於專案</a>
+        <a class="header-pill" href="#/about" title="了解專案的開發規則">Made to grow <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <footer class="footer">
+    <div class="shell footer-inner"><span>GraphNest <span class="footer-muted">/ learn in connections.</span></span><span>Built with plain HTML · CSS · JavaScript <span class="footer-dot">✳</span> Guided by AGENTS.md</span></div>
+  </footer>
+</body>
+</html>
