@@ -42,7 +42,3 @@ python -m http.server 8000
 ```bash
 node scripts/validate.mjs
 ```
-
-## 授權與自訂
-
-程式與教學內容為本作業範例，可依個人學習需求修改。公開前請自行確認概念、調整內容使其反映你的理解，並填入自己的 GitHub 網址與繳交資訊。
